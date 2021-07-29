@@ -278,6 +278,29 @@
 
 
     
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
 </article>
 
     <aside class="related-contents--wrapper">
@@ -333,14 +356,6 @@
     
 
     <footer class="site-footer">
-    <section class="links">
-        <a href="https://www.instagram.com/hensuu_lsu/" class="instagram">
-            <img src="/img/instagram_240.png"></img>
-        </a>
-        <a href="https://www.instagram.com/hensuu_lsu/" class="instagram">
-            <img src="/img/instagram_240.png"></img>
-        </a>
-    </section>
     <section class="copyright">
         &copy; 
         
@@ -445,64 +460,19 @@
                 
                 <div class="widget--toc">
                     <nav id="TableOfContents">
-  <ol>
+  <ul>
     <li><a href="#headings">Headings</a></li>
-  </ol>
+  </ul>
 
-  <ol>
-    <li><a href="#h2">H2</a>
-      <ol>
-        <li><a href="#h3">H3</a>
-          <ol>
-            <li><a href="#h4">H4</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
+  <ul>
+    <li><a href="#h2">H2</a></li>
     <li><a href="#paragraph">Paragraph</a></li>
-    <li><a href="#blockquotes">Blockquotes</a>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#blockquote-without-attribution">Blockquote without attribution</a></li>
-            <li><a href="#blockquote-with-attribution">Blockquote with attribution</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-    <li><a href="#tables">Tables</a>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#inline-markdown-within-tables">Inline Markdown within tables</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-    <li><a href="#code-blocks">Code Blocks</a>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#code-block-with-backticks">Code block with backticks</a></li>
-            <li><a href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a></li>
-            <li><a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-    <li><a href="#list-types">List Types</a>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#ordered-list">Ordered List</a></li>
-            <li><a href="#unordered-list">Unordered List</a></li>
-            <li><a href="#nested-list">Nested list</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
+    <li><a href="#blockquotes">Blockquotes</a></li>
+    <li><a href="#tables">Tables</a></li>
+    <li><a href="#code-blocks">Code Blocks</a></li>
+    <li><a href="#list-types">List Types</a></li>
     <li><a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</a></li>
-  </ol>
+  </ul>
 </nav>
                 </div>
             </section>
