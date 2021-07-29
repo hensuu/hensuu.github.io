@@ -6,25 +6,7 @@
     <description>Recent content in Categories on 隨想Records</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hensuu.csie.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>https://hensuu.csie.org/categories/test/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hensuu.csie.org/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>测试</title>
-      <link>https://hensuu.csie.org/categories/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hensuu.csie.org/categories/%E6%B5%8B%E8%AF%95/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hensuu.csie.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>syntax</title>
       <link>https://hensuu.csie.org/categories/syntax/</link>
@@ -40,6 +22,15 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hensuu.csie.org/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://hensuu.csie.org/categories/test/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hensuu.csie.org/categories/test/</guid>
       <description></description>
     </item>
     
