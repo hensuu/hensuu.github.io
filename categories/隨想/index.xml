@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 隨想Records</title>
-    <link>https://hensuu.csie.org/post/</link>
-    <description>Recent content in Posts on 隨想Records</description>
+    <title>隨想 on 隨想Records</title>
+    <link>https://hensuu.csie.org/categories/%E9%9A%A8%E6%83%B3/</link>
+    <description>Recent content in 隨想 on 隨想Records</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hensuu.csie.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hensuu.csie.org/categories/%E9%9A%A8%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lost Years</title>
       <link>https://hensuu.csie.org/p/lost-years/</link>
